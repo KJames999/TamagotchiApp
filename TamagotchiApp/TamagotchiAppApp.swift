@@ -7,8 +7,7 @@
 
 import SwiftUI
 
-@main
-struct TamagotchiAppApp: App {
+struct TamagotchiApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
