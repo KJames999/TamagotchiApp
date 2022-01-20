@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var tamagotchi = NewTamagotchi()
+    @StateObject private var tamagotchi = BaseTamagotchi(hunger: hunger)
     @State private var newHunger = 10
     
     var body: some View {
@@ -23,7 +23,7 @@ struct ContentView: View {
         
         Form {
             VStack(alignment: .leading, spacing: 20) {
-                Text(tamagotchi.newTamagotchi.getDetails())
+                Text(tamagotchi.getDetails())
                 Button("Feed", action: {
                     newHunger += 1
                 })

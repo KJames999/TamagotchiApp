@@ -103,6 +103,8 @@
 				A6A521DC279983AA00C83E59 /* ContentView.swift */,
 				A6A521DE279983AC00C83E59 /* Assets.xcassets */,
 				A6A521E3279983AC00C83E59 /* Info.plist */,
+				A6A52208279984BA00C83E59 /* Tamagotchi.swift */,
+				A6A5220D2799866B00C83E59 /* starterTamagotchi.swift */,
 				A6A521E0279983AC00C83E59 /* Preview Content */,
 			);
 			path = TamagotchiApp;
@@ -112,8 +114,6 @@
 			isa = PBXGroup;
 			children = (
 				A6A521E1279983AC00C83E59 /* Preview Assets.xcassets */,
-				A6A52208279984BA00C83E59 /* Tamagotchi.swift */,
-				A6A5220D2799866B00C83E59 /* starterTamagotchi.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -434,6 +434,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_bundle;
 				PRODUCT_BUNDLE_IDENTIFIER = com.KJames999.TamagotchiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -455,6 +456,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_bundle;
 				PRODUCT_BUNDLE_IDENTIFIER = com.KJames999.TamagotchiApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
